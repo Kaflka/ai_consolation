@@ -8,10 +8,10 @@ st.write("月出皎兮，佼人僚兮。舒窈纠兮，劳心悄兮。月出皓�
 
 # API 凭据输入框
 st.sidebar.title("设置API凭据")
-app_id = st.sidebar.text_input("SPARKAI_APP_ID", value="73f83503")
-api_secret = st.sidebar.text_input("SPARKAI_API_SECRET", value="NmE3ODM1NzA5YmJjMzExZTk0YjY4NjAx", type="password")
-api_key = st.sidebar.text_input("SPARKAI_API_KEY", value="5df59374a5f5e6f078516feb457c2b3c", type="password")
-fish_api_key = st.sidebar.text_input("Fish Audio API Key", value="78fedf813ee44097873f64048b2d2f5e", type="password")
+app_id = st.sidebar.text_input("SPARKAI_APP_ID")
+api_secret = st.sidebar.text_input("SPARKAI_API_SECRET", type="password")
+api_key = st.sidebar.text_input("SPARKAI_API_KEY", type="password")
+fish_api_key = st.sidebar.text_input("Fish Audio API Key", type="password")
 
 # 定义模型选项和对应的ID
 model_options = {
