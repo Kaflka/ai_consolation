@@ -1,7 +1,7 @@
 import requests
 #获取models的脚本，便于程序员查看
 # 设置 API 密钥
-fish_api_key = "78fedf813ee44097873f64048b2d2f5e"
+fish_api_key = "your api_ley"
 
 # 获取所有模型列表的函数
 def get_all_models(api_key):
